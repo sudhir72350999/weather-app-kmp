@@ -1,0 +1,7 @@
+package com.sudhirtheindiansp.weatherapp
+
+class WasmPlatform: Platform {
+    override val name: String = "Web with Kotlin/Wasm"
+}
+
+actual fun getPlatform(): Platform = WasmPlatform()
